@@ -1,0 +1,47 @@
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    margin: 0;
+    padding: 0 4.8rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+
+    .logo {
+        height: 9em;
+        border-radius: 0.5em;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .navbar-list {
+        display: flex;
+        list-style: none;
+        gap: 4.8rem;
+
+        .navbar-link {
+
+            &:link,
+            &:visited {
+                text-transform: uppercase;
+                display: inline-block;
+                text-decoration: none;
+                font-size: 2rem;
+                font-weight: 500;
+                color: rgb(0, 179, 255);
+                transition: all 0.3s;
+            }
+
+            &:hover,
+            &:active {
+                color: #364fc7;
+            }
+        }
+    }
+}
+
